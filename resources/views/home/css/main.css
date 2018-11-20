@@ -1,0 +1,295 @@
+/* 轮播图代码开始 */
+.loop{
+	width:1000px;
+	height:336px;
+	overflow: hidden;
+	position:relative;
+}
+.loop ul{
+	position:absolute;
+	left:0;
+	width:3000px;
+	list-style:none;
+}
+.loop ul li{
+	float:left;
+}
+#btn{
+	position:absolute;
+	width:100%;
+	bottom:10px;
+	text-align:center;
+}
+#btn span{
+	display: inline-block;
+	width:18px;
+	height:18px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	margin:0 10px;
+	cursor: pointer;
+	color:#fff;
+	border-radius:50%;
+	background:#3E3E3E;
+}
+#btn span.active{
+	background: #8C0000;
+}
+.arrow{
+	position:absolute;
+	top:50%;
+	margin-top:-40px;
+	width:40px;
+	height:80px;
+	line-height: 80px;
+	text-align: center;
+	color:#fff;
+	font-size:20px;
+	background: #AAA5A0;
+	background: rgba(0,0,0,0.3);
+}
+.arrow:hover{
+	background: #645F5D;
+	background: rgba(0,0,0,0.6);
+}
+#prev{
+	left:5px;
+}
+#next{
+	right:5px;
+}
+/* 轮播图代码结束 */
+
+/* 番职要闻代码开始 */
+.news{
+	width:1000px;
+	overflow: hidden;
+}
+.news h1{
+	margin:15px 0;
+	font-size:16px;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 40px;
+	font-weight: normal;
+	border-bottom: 2px solid #8C0000;
+	background: url(../images/icon/news.png) left no-repeat;
+}
+.news h1 a{
+	display: block;
+	margin-right: 5px;
+	color:#8C0000;
+	font-size:12px;
+}
+.news h1 a:hover{
+	text-decoration: underline;
+}
+.newsImportant{
+	width:310px;
+	margin-right:20px;
+}
+.newsImportant img{
+	width:310px;
+	height:175px;
+	border:none;
+}
+.newsImportant h2{
+	font-size:16px;
+	cursor: pointer;
+	font-weight: normal;
+	line-height: 30px;
+}
+.newsImportant h2:hover{
+	color: #8C0000;
+}
+.newsImportant p{
+	color:gray;
+	text-indent: 2em;
+	font-size: 12px;
+}
+.newsList{
+	float:left;
+	width:665px;
+	list-style: none;
+}
+.newsList li{
+	float:left;
+	padding:15px 10px;
+	width:300px;
+	height:35px;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+.newsList li:nth-child(2n){
+	margin-left:20px;
+}
+.newsList li a:hover{
+	color:#8C0000;
+}
+/* 番职要闻代码结束 */
+
+/* 主体部分代码开始 */
+.main{
+	width:1000px;
+	margin-top:10px;
+	clear:both;
+	overflow: hidden;
+}
+
+/* 左边代码开始 */
+.mainLeft{
+	width:500px;
+}
+
+/* 通知公告代码开始 */
+.public h1{
+	margin:15px 0;
+	font-size:18px;
+	height: 45px;
+	line-height: 45px;
+	font-weight: normal;
+	padding-left: 30px;
+	border-bottom: 2px solid #8C0000;
+}
+#tongzhi{
+	background: url(../images/icon/tongzhi.png) 0 center no-repeat;
+}
+#kecheng{
+	background: url(../images/icon/kecheng.png) 0 center no-repeat;
+}
+#shijian{
+	background: url(../images/icon/shijian.png) 0 8px no-repeat;
+}
+.public h1 a{
+	display:block;
+	color:#8C0000;
+	padding-left:55px;
+	padding-top: 1px;
+	background: url(../images/icon/more.png) center no-repeat;
+}
+.public h1 a:hover{
+	text-decoration:underline;
+}
+.publicList{
+	list-style: none;
+}
+.publicList li{
+	height:30px;
+	line-height: 30px;
+	margin:10px 0;
+	padding-left:10px;
+}
+.publicList li a:hover{
+	color:#8C0000;
+}
+/* 通知公告代码结束 */
+
+/* 左边代码结束 */
+
+/* 右边代码开始 */
+.mainRight{
+	width:430px;
+}
+
+/* banner栏目代码开始 */
+.banner{
+	position: relative;
+	margin-top: 20px;
+	width:400px;
+	height:170px;
+	background:#eee;
+	border:1px solid #C9C9C9;
+}
+.bannerLeft{
+	display: inline-block;
+	margin: 48px 20px;
+}
+.bannerLeft span{
+	display: block;
+}
+.bannerRight{
+	position: absolute;
+	top:0;
+	right: 0;
+	padding:0;
+}
+.bannerRight img{
+	width:305px;
+	height:170px;
+	border:1px solid #eee;
+}
+.bannerHide{
+	position: absolute;
+	right:0;
+	bottom: 0;
+	width: 305px;
+	height: 0px;
+	line-height: 30px;
+	text-align: center;
+	color:#fff;
+	z-index: 888;
+	background: #575757;
+	background: rgba(0,0,0,0.6);
+}
+/* banner栏目代码结束 */
+
+/* 右边代码结束 */
+
+/* 主体部分代码结束 */
+
+/*友情链接代码开始*/
+.alink{
+	margin:20px auto;
+	width:1000px;
+	overflow: hidden;
+}
+.alink h1{
+	padding:43px 25px 0 10px;
+	height: 125px;
+	font-size:18px;
+	font-weight:normal;
+	background: url(../images/icon/shenghuo.png) 8px 10px no-repeat;
+}
+.alink ul{
+	margin:0 auto;
+}
+.alink ul li{
+	margin:0 15px;
+	position: relative;
+	list-style: none;
+	height:150px;
+	width:150px;
+	float:left;
+	cursor: pointer;
+	border:2px solid #8C0000;
+}
+.alink ul li img{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.alink ul li a{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width:100%;
+	height: 0px;
+	line-height: 30px;
+	text-align: center;
+	color:#fff;
+	background: rgba(0,0,0,0.6);
+}
+.alink ul li i{
+	position: absolute;
+	top:0;
+	right: 0;
+	z-index: 999;
+	display: block;
+	border-top:10px solid #8C0000;
+	border-right:10px solid #8C0000;
+	border-left:10px solid transparent;
+	border-bottom:10px solid transparent;
+}
+/*友情链接代码结束*/

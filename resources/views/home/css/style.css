@@ -1,0 +1,170 @@
+*{
+	margin:0;
+	padding:0;
+	color:333;
+	font-size:14px;
+	outline: none;
+	font-family:"微软雅黑";
+	text-decoration:none;
+}
+a{
+	color:#333;
+}
+img{
+	border:none;
+}
+body{
+	background: #F5F7F6;
+}
+
+/* 公共样式 */
+.center{
+	margin:0 auto;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+
+/* header代码开始 */
+.header{
+	width:100%;
+	background: #293E6B;
+}
+
+/* top代码 */
+.top{
+	width:1000px;
+	height:30px;
+	line-height: 30px;
+}
+.topList{
+	list-style: none;
+}
+.topList li{
+	float:left;
+	padding:0 10px;
+}
+.topList li a{
+	color:#fff;
+	font-size:12px;
+}
+.topList li a:hover{
+	color:#ccc;
+}
+
+/* header代码结束 */
+
+/* logo、导航栏代码开始 */
+#navBox{
+	width:100%;
+	z-index: 999;
+}
+.nav{
+	margin:0 auto;
+	width:1000px;
+	height:100px;
+	line-height: 100px;
+	padding:10px 0;
+	overflow: hidden;
+}
+.navList{
+	list-style: none;
+}
+.navList li{
+	float:left;
+	padding-left:29px;
+}
+.navList li a{
+	font-size:18px;
+}
+.navList li a:hover{
+	color:#8C0000;
+}
+
+/*滚动鼠标，导航栏固定在顶部*/
+.navHide{
+	display: none;
+	position: fixed;
+	top:0;
+	width:100%;
+	background:#293E6B;
+	z-index: 9999;
+}
+.navHide ul{
+	margin:0 auto;
+	height:40px;
+	line-height: 40px;
+	width:1000px;
+}
+.navHide ul li{
+	float: left;
+	padding-right:86px;
+	list-style: none;
+}
+.navHide ul li:last-child{
+	padding-right:0;
+}
+.navHide ul li a{
+	color:#fff;
+	font-size:18px;
+}
+/* logo、导航栏代码结束 */
+
+/* footer代码开始 */
+.footer{
+	clear:both;
+	padding:15px 0;
+	background: #293E6B;
+}
+.footer p{
+	margin:0 auto;
+	width:1000px;
+	color:#fff;
+	text-align: center;
+	line-height: 30px;
+}
+.footer p a{
+	display: inline-block;
+	margin-left:20px;
+	color:#fff;
+	text-decoration: underline;
+}
+/* footer代码结束 */
+
+/* 分页样式代码开始 */
+.page{
+	margin:20px 0;
+	text-align: center;
+	width:100%;
+	overflow: hidden;
+}
+.page ul li{
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+.page ul li span,.page ul li a{
+	margin:0 2px;
+	height:24px;
+	line-height: 24px;
+	border-radius: 50%;
+	width:24px;
+	text-align: center;
+	display: inline-block;
+}
+.page ul li a{
+	color: #F33;
+	border: #999 1px solid;
+}
+.page ul li.active span,.page ul li a:hover{
+	background: #333333;
+	color: #FFF;
+}
+.page ul li.disabled span{
+	background: #CCC; 
+	color: #FFF;
+}
+/* 分页样式代码结束 */
